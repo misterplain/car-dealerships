@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#admin
+steps.md
+
 # C extensions
 *.so
 
