@@ -63,3 +63,7 @@ djangoproj/url
 
 cd /home/project/xrwvm-fullstack_developer_capstone/server/frontend
 npm run build
+
+when creating and updating the server/database, you need to build and compose with each change
+docker build . -t nodeapp
+docker-compose up
