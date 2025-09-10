@@ -1,4 +1,4 @@
-test commit for github/ibm workspace integration
+test commit for github/ibm workspace integrations
 
 -clone repository
 https://github.com/ibm-developer-skills-network/xrwvm-fullstack_developer_capstone
