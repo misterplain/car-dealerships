@@ -32,13 +32,12 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '*',
     'http://localhost:8000/',
-    'https://obrienp2321-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01'
-    '.proxy.cognitiveclass.ai/'
+    'https://obrienp2321-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/'
 ]
 CSRF_TRUSTED_ORIGINS = [
+    '*',
     'http://localhost:8000/',
-    'https://obrienp2321-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01'
-    '.proxy.cognitiveclass.ai/'
+    'https://obrienp2321-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/'
 ]
 
 # ALLOWED_HOSTS=['localhost','https://obrienp2321-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/]
