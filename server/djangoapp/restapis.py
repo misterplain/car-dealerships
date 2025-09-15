@@ -29,9 +29,7 @@ def get_request(endpoint, **kwargs):
 
 
 def analyze_review_sentiments(text):
-    # Ensure the sentiment_analyzer_url ends with a slash
-    base_url = sentiment_analyzer_url.rstrip('/') + '/'
-    request_url = base_url + "analyze/" + text
+    request_url = sentiment_analyzer_url+"analyze/"+text
     try:
         # Call get method of requests library with URL and parameters
         response = requests.get(request_url)
@@ -39,7 +37,6 @@ def analyze_review_sentiments(text):
     except Exception as err:
         print(f"Unexpected {err=}, {type(err)=}")
         print("Network exception occurred")
-        return None
 
 
 def post_review(data_dict):
